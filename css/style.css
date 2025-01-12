@@ -35,6 +35,7 @@ a {
   padding-top: 20px;
   padding-bottom: 20px; }
   .custom-navbar .navbar-brand {
+    font-family: "Harrington", serif;
     font-size: 32px;
     font-weight: 600; }
     .custom-navbar .navbar-brand > span {
@@ -117,6 +118,9 @@ a {
     @media (min-width: 1400px) {
       .hero h1 {
         font-size: 54px; } }
+  .hero span {
+    font-family: "Harrington", serif;
+  }
   .hero p {
     color: rgba(255, 255, 255, 0.5);
     margin-botom: 30px; }
@@ -162,13 +166,13 @@ a {
   font-weight: 600;
   padding: 12px 30px;
   border-radius: 30px;
-  color: #ffffff;
-  background: #2f2f2f;
-  border-color: #2f2f2f; }
+  color: #314d43;
+  /* background: #2f2f2f; */
+  border-color: #314d43; }
   .btn:hover {
     color: #ffffff;
-    background: #222222;
-    border-color: #222222; }
+    background: #314d43;
+    border-color: #314d43; }
   .btn:active, .btn:focus {
     outline: none !important;
     -webkit-box-shadow: none;
@@ -180,7 +184,7 @@ a {
       background: #314d43;
       border-color: #314d43; }
   .btn.btn-secondary {
-    color: #2f2f2f;
+    color: #314d43;
     background: #f9bf29;
     border-color: #f9bf29; }
     .btn.btn-secondary:hover {
@@ -189,13 +193,14 @@ a {
   .btn.btn-white-outline {
     background: transparent;
     border-width: 2px;
-    border-color: rgba(255, 255, 255, 0.3); }
+    border-color: #f8b810;
+    color: #f8b810;}
     .btn.btn-white-outline:hover {
       border-color: white;
       color: #ffffff; }
 
 .section-title {
-  color: #2f2f2f; }
+  color: #314d43; }
 
 .product-section {
   padding: 7rem 0; }
@@ -220,14 +225,14 @@ a {
       font-weight: 800 !important;
       font-size: 18px !important; }
     .product-section .product-item h3, .product-section .product-item strong {
-      color: #2f2f2f;
+      color: #314d43;
       text-decoration: none; }
     .product-section .product-item .icon-cross {
       position: absolute;
       width: 35px;
       height: 35px;
       display: inline-block;
-      background: #2f2f2f;
+      background: #314d43;
       bottom: 15px;
       left: 50%;
       -webkit-transform: translateX(-50%);
@@ -305,7 +310,7 @@ a {
       bottom: 0; }
   .feature h3 {
     font-size: 14px;
-    color: #2f2f2f; }
+    color: #314d43; }
   .feature p {
     font-size: 14px;
     line-height: 22px;
